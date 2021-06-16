@@ -4,24 +4,43 @@ My colab working repo
 
 It covers the advanced feature of the data cleaning process in Pandas Python.
 
-Enlarge Jupyter Notebook screen: 0:42
-Data type and Conversions:-  1:40
-.astype() function:-  4:05
-Check  columns of specific datatype:- 8:27
-to_numeric() function:- 10:30
-Difference between .astype(int) and to_numeric() function:- 11:40
-Check data if string and int:- 13:02
-Handle string in the numeric field:- 17:20
-fillna(): 18:20
-to_datetime(): 20:03
-Handle string in date field:- 21:45
-Convert to different date format:- 22:40
-start with, end with contains:- 27:12
-swap and repeat:- 27:55
-Concat , merge data frame:- 29:20
-Lookup data frame:- 40:02
-Transpose:- 42:40
-Melt:- 42:50
-Pivort:- 51: 05 
-Unstack:- 54:50
-Stack:- 57:00
+
+Data type and Conversions
+
+.astype() function
+
+Check  columns of specific datatype
+
+to_numeric() function
+
+Difference between .astype(int) and to_numeric() function
+
+Check data if string and int
+
+Handle string in the numeric field
+
+fillna()
+
+to_datetime()
+
+Handle string in date field
+
+Convert to different date format
+
+start with, end with contains
+
+swap and repeat
+
+Concat , merge data frame
+
+Lookup data frame
+
+Transpose
+
+Melt
+
+Pivort
+
+Unstack
+
+Stack
