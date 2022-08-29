@@ -2,45 +2,33 @@
 My colab working repo
 
 
-It covers the advanced feature of the data cleaning process in Pandas Python.
+Uploading files from your local file system:
+
+```python
+from google.colab import files
+uploaded = files.upload()
+
+for fn in uploaded.keys():
+  print('User uploaded file "{name}" with length {length} bytes'.format(
+      name=fn, length=len(uploaded[fn])))
+
+```
+
+```python
+text here
+```
 
 
-Data type and Conversions
+```python
+text here
+```
 
-.astype() function
 
-Check  columns of specific datatype
+```python
+text here
+```
 
-to_numeric() function
 
-Difference between .astype(int) and to_numeric() function
-
-Check data if string and int
-
-Handle string in the numeric field
-
-fillna()
-
-to_datetime()
-
-Handle string in date field
-
-Convert to different date format
-
-start with, end with contains
-
-swap and repeat
-
-Concat , merge data frame
-
-Lookup data frame
-
-Transpose
-
-Melt
-
-Pivort
-
-Unstack
-
-Stack
+```python
+text here
+```
