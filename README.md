@@ -2,7 +2,7 @@
 My colab working repo
 
 
-Uploading files from your local file system:
+#### Uploading files from your local file system:
 
 ```python
 from google.colab import files
@@ -14,8 +14,11 @@ for fn in uploaded.keys():
 
 ```
 
+#### Downloading files to your local file system
+
 ```python
-text here
+from google.colab import files
+files.download('example.txt')
 ```
 
 
