@@ -21,9 +21,19 @@ from google.colab import files
 files.download('example.txt')
 ```
 
+#### use Python's pickle functionality to write the model object to a single file
 
 ```python
-text here
+import pickle
+pickle.dump(earthquake_embedding_model, open('earthquake_w2v_model.pkl','wb'))
+# Loading model to compare the results
+# model = pickle.load(open('model.pkl','rb'))
+# download
+from google.colab import files
+files.download('earthquake_w2v_model.pkl')
+# upload
+from google.colab import files
+uploaded = files.upload()
 ```
 
 
