@@ -34,6 +34,8 @@ files.download('earthquake_w2v_model.pkl')
 # upload
 from google.colab import files
 uploaded = files.upload()
+# load
+earthquake_w2v_model = pickle.load(open('earth_w2v_model.pkl','rb'))
 ```
 
 
